@@ -1,0 +1,1 @@
+<p>Instructor&#39;s notebook:&nbsp;<a href="https://github.com/dphi-official/Machine_Learning_Bootcamp/blob/master/Data_Preparation_101/Data_Preparation_101.ipynb" target="_blank">https://github.com/dphi-official/Machine_Learning_Bootcamp/blob/master/Data_Preparation_101/Data_Preparation_101.ipynb</a></p>
