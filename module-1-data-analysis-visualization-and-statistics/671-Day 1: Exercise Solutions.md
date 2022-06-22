@@ -1,0 +1,1 @@
+<p>Solutions for the exercises in Instructor&#39;s notebook:&nbsp;<a href="https://github.com/dphi-official/Data_Science_Bootcamp/blob/master/Week1/Pandas_Exercises_Solutions.ipynb" target="_blank">https://github.com/dphi-official/Data_Science_Bootcamp/blob/master/Week1/Pandas_Exercises_Solutions.ipynb</a></p>
