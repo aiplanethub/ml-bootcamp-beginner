@@ -1,2 +1,3 @@
-<h1>Day 1 Live Session: Introduction to Machine Learning & Fundamentals of Python</h1>
+The Session Slides can be found here: [Session Slides](https://docs.google.com/presentation/d/1l5ZqKDYVCPSlgCg57pNMhF4GxsBd_KXhCM0o61Hu_O8/edit?usp=sharing).
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/OYrvvWtwphQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
