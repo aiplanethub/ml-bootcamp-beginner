@@ -8,15 +8,15 @@
 
 ### You are An Apple Farmer
 
-* You own an apple farm and you want to know the number of apples you grow but you are too busy with the farm so you hire someone to count them. You sell your apples too, and you get your apple counter to keep a record of the number of apples you have in the beginning and at the end of the day, every day. Many days and months pass and you put sheet after sheet of the apple count together and you discover patterns and trends in the purchasing behaviour of your customers.
+* You own an apple farm and want to know the number of apples you grow, but you are too busy with the farm, so you hire someone to count them. You sell your apples too, and you get your apple counter to keep a record of the number of apples you have at the beginning and the end of the day. Many days and months pass, and you put sheet after sheet of the apple count together, and you discover patterns and trends in the purchasing behavior of your customers.
 
-* The trends and patterns help you realise that during the colder season, your output of apples are the same but people buy less than during the summer. You then set out to dig deeper into this trend, and find ways to keep the sales of apples consistent throughout the year, beating your competitors at the game and becoming an apple farm tycoon.
+* The trends and patterns help you realize that your output of apples is the same during the colder season, but people buy less than during the summer. You then set out to dig deeper into this trend and find ways to keep the sales of apples consistent throughout the year, beating your competitors at the game and becoming an apple farm tycoon.
 
-* Apples are your data, tracking them is important, analysis is key
+* Apples are your data; tracking them is essential, and analysis is key
 
-* Apples are your products/assets, knowing their movement is important. For starters, you will know if your supply of apples matches the market’s demand, as well as the consistency of the ratio of demand to supply throughout the year.
+* Apples are your products/assets; knowing their movement is essential. For starters, you will know if your supply of apples matches the market's demand and the consistency of the ratio of demand to supply throughout the year.
 
-* Reducing the cost of apple production gives you your profit. When you have enough data, you will find trends and patterns in your production. These trends can help you understand your own organisation better, help you reduce inefficiency and therefore reduce your apple production costs.
+* Reducing the cost of apple production gives you your profit. You will find trends and patterns in your production when you have enough data. These trends can help you understand your organization better, help you reduce inefficiency and therefore reduce your apple production costs.
 
 ### Data Analytics
 
@@ -27,24 +27,24 @@
 ### Real-life Examples
 
 1. Economics  
-Analyzing data to form patterns and understanding trends about how the economy in various sectors is growing, is something very essential for economists. Therefore, a lot of economists have started using Python and Pandas to analyze huge datasets.
+Analyzing data to form patterns and understanding trends about how the economy in various sectors is growing is essential for economists. Therefore, many economists have started using Python and Pandas to analyze huge datasets.
 
 2. Recommendation Systems  
-We all have used Spotify or Netflix and been appalled at the brilliant recommendations provided by these sites. The recommendation system is possible only by learning and handling huge masses of data.
+We all have used Spotify or Netflix and have been appalled at the brilliant recommendations provided by these sites. The recommendation system is only possible by learning and handling huge amounts of data.
 
 3. Stock Prediction  
-The stock market is extremely volatile. However, that doesn’t mean that it cannot be predicted. With the help of Pandas and a few other libraries like NumPy and matplotlib, we can easily make models which can predict how the stock markets turn out.
+The stock market is highly volatile. However, that doesn't mean that it cannot be predicted. With the help of Pandas and a few other libraries like NumPy and matplotlib, we can easily make models to predict how the stock markets turn out.
 
 ## Pandas
 
 ### Why Pandas?
 
-* In real-life, as a Data Scientist, we need to play with data and pandas essentially helps us to give a head start with it.
+* In real life, as a Data Scientist, we need to play with data, and pandas helps us give a head start with it.
 
 * Be it reading the data, analyzing /cleaning /changing /
 transforming. Pandas has a solution for all of it.
 
-* It even helps in calculating basic statistics. If we go on there will be number of use-cases, we have summarized a few of them in the next slide.
+* It even helps in calculating basic statistics. If we go on, there will be a number of use-cases, we have summarized a few of them in the next slide.
 
 * Pandas help in analyzing large volumes of data with ease.
 
@@ -184,9 +184,9 @@ pd.read_csv("filename.csv") #reading CSV file
 
 * There are many other things one can do through this function
 only to change the returned object completely.
-* For instance, one can read a csv file not only locally, but from a URL through read_csv or one can choose what columns needed to export so that we don’t have to edit the array later.
+* For instance, one can read a csv file not only locally, but from a URL through read_csv or one can choose what columns needed to export so that we don't have to edit the array later.
 * These modifications can be done by the various arguments it takes.
-* We don’t need to memorise all the arguments though, let’s
+* We don't need to memorise all the arguments though, let's
 have a look at few important ones in the next two slides.
 
 ### Pandas to_csv
@@ -223,7 +223,7 @@ https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduct
 
 ### Notebook for Session
 
-*We’ll next have a look at a pre-recorded session on
+*We'll next have a look at a pre-recorded session on
 Pandas.
 
 * Link to the Notebook used in the session:  https://dphi.tech/notebooks/852/manish_kc_06/day-1-notebook-introduction-to-pandas
