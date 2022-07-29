@@ -16,13 +16,13 @@
 
 * Apples are your products/assets; knowing their movement is essential. For starters, you will know if your supply of apples matches the market's demand and the consistency of the ratio of demand to supply throughout the year.
 
-* Reducing the cost of apple production gives you your profit. You will find trends and patterns in your production when you have enough data. These trends can help you understand your organization better, help you reduce inefficiency and therefore reduce your apple production costs.
+* Reducing the cost of apple production gives you your profit. You will find trends and patterns in your production with enough data. These trends can help you understand your organization better, help you reduce inefficiency and therefore reduce your apple production costs.
 
 ### Data Analytics
 
-* In simple words, data analysis is the process of collecting and organizing data in order to draw helpful conclusions from it. The process of data analysis uses analytical and logical reasoning to gain information from the data.
+* In simple words, data analysis is collecting and organizing data to draw helpful conclusions. The process of data analysis uses analytical and logical reasoning to gain information from the data.
 
-* The main purpose of data analysis is to find meaning in data so that the derived knowledge can be used to make informed decisions.
+* The primary purpose of data analysis is to find meaning in data so that the derived knowledge can be used to make informed decisions.
 
 ### Real-life Examples
 
@@ -39,28 +39,27 @@ The stock market is highly volatile. However, that doesn't mean that it cannot b
 
 ### Why Pandas?
 
-* In real life, as a Data Scientist, we need to play with data, and pandas helps us give a head start with it.
+* In real life, as Data Scientist, we need to play with data, and pandas helps us give a head start with it.
 
-* Be it reading the data, analyzing /cleaning /changing /
-transforming. Pandas has a solution for all of it.
+* Be it reading the data, analyzing/cleaning/changing/transforming. Pandas has a solution for all of it.
 
-* It even helps in calculating basic statistics. If we go on, there will be a number of use-cases, we have summarized a few of them in the next slide.
+* It even helps in calculating basic statistics. If we go on, there will be many use-cases; we have summarized a few below.
 
 * Pandas help in analyzing large volumes of data with ease.
 
 ### Specific-Use Cases
 
-* Creating data: You can create your own dataset using pandas.
+* Creating data: You can create your dataset using pandas.
 
-* Reading data: Often we get data in various formats such as csv, excel, in sql database, json etc. Pandas have some simple functions to perform this task
+* Reading data: Often, we get data in various formats such as CSV, Excel, SQL database, JSON, etc. Pandas has some simple functions to perform this task
 
-* Analyzing data: With the help of other libraries like matplotlib, it helps in statistical analysis and visualize data with plots such as histograms, scatter plots etc
+* Analyzing data: With the help of other libraries like matplotlib, it helps in statistical analysis and visualizes data with plots such as histograms, scatter plots, etc.
 
-*  Cleaning data and handling missingness: Often Data Scientists get unclean data with a lot missing values and we need to have a solution to deal with it. Pandas facilitate in handling this issue.
+*  Cleaning data and handling missingness: Data Scientists often get unclean data with many missing values, and we need to have a solution to deal with it. Pandas facilitate the handling of this issue.
 
 ### Pandas Objects
 
-* At the core of the pandas library there are two fundamental data structures/objects:
+* At the core of the pandas library, there are two fundamental data structures/objects:
   * Series
   * Data Frames
 
@@ -96,12 +95,12 @@ transforming. Pandas has a solution for all of it.
 ### Pandas Operations
 
 * Data indexing and selection
-  * Use case: Helps fetch a data record when we are dealing with large volumes of data.
-  * For ex: If you have a data with 10 million records, you can easily fetch information of a particular serial no/index no with pandas.
+  * Use case: Helps fetch a data record when dealing with large volumes of data.
+  * For ex: If you have data with 10 million records, you can easily fetch information of a particular serial no/index no with pandas.
   * This operation may not be feasible with MS Excel while dealing with such large volumes
 * Data Wrangling & Handling Missing Values - read the
 notebook.
-  * Use case: Often Data Scientists get unclean data with a lot of missing values and we need to have a solution to deal with it. Pandas facilitate in handling this issue
+  * Use case: Data Scientists often get unclean data with many missing values, and we need to have a solution to deal with it. Pandas facilitates the handling of this issue
 * Pandas String Operations
    * Use case: Helps in Handling Missing Values
 
@@ -125,8 +124,8 @@ notebook.
 
 
 
-* CSV files are normally created by programs that handle large amounts of data. They are a convenient way to export data from spreadsheets and databases as well as import or use it in other programs.
-* CSV (Comma Separated Values) is a simple file format used to store tabular data, such as a spreadsheet or database.
+* CSV files are usually created by programs that handle large amounts of data. They are a convenient way to export data from spreadsheets and databases and import or use it in other programs.
+* CSV (Comma Separated Values) is a simple file format that stores tabular data, such as a spreadsheet or database.
 * A CSV file stores tabular data (numbers and text) in plain text.
 * Each line of the file is a data record.
 * Each record consists of one or more fields, separated by commas.
@@ -153,18 +152,17 @@ notebook.
 
 ### Working with CSV files in Python
 
-* For working CSV files in python, there is an inbuilt
-module named csv.
+* For working CSV files in Python, there is an inbuilt module named csv.
 
-* However, a common method for working with CSV files is using Pandas. It makes importing and analyzing data much easier.
+* However, a common method for working with CSV files is using Pandas. It makes importing and analyzing data much more effortless.
 *  One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files.
 
 ### Pandas read_csv
 
 * Functions like the Pandas read_csv() method enable you to work with files effectively.
 * The read_csv() function reads the CSV file into a DataFrame object.
-* A CSV file is similar to a two-dimensional table and the DataFrame object represents two dimensional tabular view.
-* The most basic way to read a csv file in Pandas:  
+* A CSV file is similar to a two-dimensional table, and the DataFrame object represents a two-dimensional tabular view.
+* The most basic way to read a CSV file in Pandas:  
 ```
 import pandas as pd #Import pandas
 pd.read_csv("filename.csv") #reading CSV file
@@ -182,12 +180,10 @@ pd.read_csv("filename.csv") #reading CSV file
 
 
 
-* There are many other things one can do through this function
-only to change the returned object completely.
-* For instance, one can read a csv file not only locally, but from a URL through read_csv or one can choose what columns needed to export so that we don't have to edit the array later.
+* One can do many other things through this function only to change the returned object completely.
+* For instance, one can read a CSV file not only locally but from a URL through read_csv or choose what columns are to be imported so that we don't have to edit the array later.
 * These modifications can be done by the various arguments it takes.
-* We don't need to memorise all the arguments though, let's
-have a look at few important ones in the next two slides.
+* We don't need to memorize all the arguments, though.
 
 ### Pandas to_csv
 
@@ -201,8 +197,7 @@ using the Pandas to_csv function
 # df is the name of the DataFrame here
 df.to_csv("file_name.csv")
 ```
-* If you want to export without the index, simply add
-index=False
+* If you want to export without the index, add index=False
 
 
 
@@ -227,7 +222,7 @@ https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduct
 Pandas.
 
 * Link to the Notebook used in the session:  https://dphi.tech/notebooks/852/manish_kc_06/day-1-notebook-introduction-to-pandas
-* Make sure you attempt the exercises in the notebook.
+* Make sure you attempt the exercises in the Notebook.
 
 ### Slide Download Link
 
